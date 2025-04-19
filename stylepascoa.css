@@ -1,0 +1,52 @@
+body {
+    display: block;
+    background-color: #ffc3c9;
+
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+input {
+    border: none;
+    appearance: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fffced;
+    padding: 12px;
+    border-radius: 8px;
+    width: 150px;
+    outline: none;
+    color: black;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#botao {
+
+    background-color: #8f4525;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 8px;
+    transition-duration: 0.4s;
+}
+
+label {
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
