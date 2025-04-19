@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylepascoa.css">
+    <title>Páscoa 🐰</title>
+</head>
+<body>
+
+    <img src="img/3 (1).png" alt="primeira pista" id="imagem">
+
+    <form onsubmit="verificaSenha(event)">
+        <input type="text" name="senha" id="senha" placeholder="Digite a senha" required>
+        <button type="submit" id="botao">Confirmar</button>
+    </form>
+
+    <script>
+        function verificaSenha(event){
+            event.preventDefault();
+            const senha1 = "2711";
+            var input = document.getElementById("senha").value;
+            if (input === senha1){
+                window.location.href = "/quartapista.html";
+            } else {
+                input = "Senha errada, tente novamente";
+            }
+
+        }
+        
+    </script>
+</body>
+</html>
